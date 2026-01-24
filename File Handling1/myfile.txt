@@ -1,0 +1,4 @@
+HELLO
+welcome to python
+lets learn file handling
+hey.......how are you?
