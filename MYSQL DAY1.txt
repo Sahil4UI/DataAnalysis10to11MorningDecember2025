@@ -1,0 +1,44 @@
+mysql> create database samyak;
+Query OK, 1 row affected (0.072 sec)
+
+mysql> use samyak;
+Database changed
+mysql> create table students (roll int,name text,marks int);
+Query OK, 0 rows affected (0.030 sec)
+
+mysql> insert into students values (101,"Ragu",90);
+Query OK, 1 row affected (0.017 sec)
+
+mysql> insert into STUDENTS values (102,"Ravi",0),(103,"manu",4);
+Query OK, 2 rows affected (0.006 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from students;
++------+------+-------+
+| roll | name | marks |
++------+------+-------+
+|  101 | Ragu |    90 |
+|  102 | Ravi |     0 |
+|  103 | manu |     4 |
++------+------+-------+
+3 rows in set (0.001 sec)
+
+mysql> select name,marks  from students;
++------+-------+
+| name | marks |
++------+-------+
+| Ragu |    90 |
+| Ravi |     0 |
+| manu |     4 |
++------+-------+
+3 rows in set (0.001 sec)
+
+mysql> select *  from students where roll=101;
++------+------+-------+
+| roll | name | marks |
++------+------+-------+
+|  101 | Ragu |    90 |
++------+------+-------+
+1 row in set (0.001 sec)
+
+mysql> 
