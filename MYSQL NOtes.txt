@@ -1,0 +1,33 @@
+MYSQL - DBMS - Data Base Management System
+FBMS-FILE BASED MANAGEMENT SYSTEM
+DBMS
+
+SQL is the language
+MYSQL is the app
+
+TYPES OF SQL COMMANDS
+1.DDL - Data Definition Language
+2.DML - Data Manipulation Language
+3.TCL - Transaction Control Language
+4.DCL - Data Control Language
+
+How to install mysql
+1.goto google , type mysql community installer
+https://dev.mysql.com/downloads/installer/
+and install it
+Then open mysql command line client or mysql workbench
+—————————————————————————
+How to create data base ? 
+create database samyak;
+
+How to use data base ? 
+use samyak;
+
+How to create table  ? 
+create table students (roll int,name text,marks int);
+How to insert data into table? 
+insert into students values (101,"Ragu",90);
+How to see the data ? 
+select * from students;
+How to use conditions in select statement?
+select *  from students where roll=101;
